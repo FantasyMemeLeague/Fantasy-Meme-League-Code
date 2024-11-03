@@ -6,7 +6,7 @@ dotenv.config({ path: '../.env' });
 import TelegramBot from 'node-telegram-bot-api';
 import pm2 from 'pm2';
 import { doc, getDoc, setDoc, updateDoc, arrayUnion } from 'firebase/firestore';
-import { db } from './firebaseConfig.js';
+import { db } from './firebaseconfig.js';
 import dayjs from 'dayjs';
 
 // Initialize Telegram bot and admin chat ID
